@@ -39,7 +39,7 @@
 button {
     
         
-    border: solid 1px gray;
+    border: solid 0px gray;
     color: white;
     height: 2em;
     width: 6em;
@@ -78,4 +78,34 @@ button {
 
 .info {
     padding-left: 30px;
+}
+
+.subTitle {
+    margin: 20px 80px;
+    text-align: center;
+    color: deepskyblue;
+    font-weight: 1000;
+    font-size: 1.2em;
+    border: solid 1px;
+}
+
+table {
+    border: solid 2px;
+     border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+}
+
+td {
+    border: solid 1px;
+}
+
+.btnListen {
+       border: solid 0px gray;
+    color: white;
+    background-color:darkcyan;
+    height: 3em;
+    width: 7.5em;
+    font-size: 1.5em;
+   border-radius: 0;
 }
