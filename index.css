@@ -32,10 +32,12 @@
     left: 50%;
     margin-left: -3em;
     top: -150px;
+    background-color: rgba(0,0,0,0.4);
+/*    opacity: 0.4;*/
 }
 
 button {
-    background-color: #0006;
+    
         
     border: solid 1px gray;
     color: white;
