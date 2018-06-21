@@ -1,0 +1,15 @@
+
+
+<h1>正在判断浏览环境并跳转...</h1>
+
+<script>
+var ua = navigator.userAgent.toLowerCase(); 
+if(ua.match(/MicroMessenger/i)=="micromessenger") { 
+window.location.href='https://u.wechat.com/ELYszxpC-QWwJxZl84N-Xkc'; 
+}else if(ua.match(/QQ/i) == "qq"){ 
+window.location.href='http://qm.qq.com/cgi-bin/qm/qr?k=gA_mML2Ujh-MVqi3tRuDu5vzGQ3GF-mN'; 
+}else{
+   alert('正在尽力为您跳转到微信，可能不会成功，推荐使用微信或QQ打开本页面。');
+   window.location.href='https://u.wechat.com/ELYszxpC-QWwJxZl84N-Xkc';      
+}
+    </script>
